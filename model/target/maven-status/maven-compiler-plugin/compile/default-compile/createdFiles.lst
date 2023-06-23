@@ -1,0 +1,5 @@
+com\meta\model\Comment.class
+com\meta\model\LinkedinProfile.class
+com\meta\model\Post.class
+com\meta\model\Reaction.class
+com\meta\model\Like.class

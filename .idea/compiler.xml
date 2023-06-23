@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exception" />
+        <module name="controller" />
+        <module name="view" />
+        <module name="post_feature" />
+        <module name="dao" />
+        <module name="service" />
+        <module name="model" />
+        <module name="validation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="controller" target="17" />
+      <module name="dao" target="17" />
+      <module name="exception" target="17" />
+      <module name="model" target="17" />
+      <module name="post_feature" target="17" />
+      <module name="service" target="17" />
+      <module name="validation" target="17" />
+      <module name="view" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

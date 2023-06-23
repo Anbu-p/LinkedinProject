@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1687518189384
+Build-Jdk-Spec: 17
+Bundle-Description: service OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: service Bundle
+Bundle-SymbolicName: com.meta.service
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: com.meta.service;uses:="com.meta.model";version="1.0.0"
+Import-Package: com.meta.dao;version="[1.0,2)",com.meta.model;version="[
+ 1.0,2)",java.lang,java.util
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Tool: Bnd-6.3.1.202206071316

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="post_feature-1.0-SNAPSHOT" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+
+    <feature name='post_feature' description='post_feature-feature' version='1.0-SNAPSHOT'>
+        <details>post_feature details</details>
+        <!-- <config>foo=bar</config> -->
+    </feature>
+
+</features>

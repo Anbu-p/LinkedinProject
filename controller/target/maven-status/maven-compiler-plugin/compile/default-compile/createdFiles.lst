@@ -1,0 +1,5 @@
+com\meta\controller\LikeController.class
+com\meta\controller\CommentController.class
+com\meta\controller\PostController.class
+com\meta\controller\RestController.class
+com\meta\controller\LinkedinController.class

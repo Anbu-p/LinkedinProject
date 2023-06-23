@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1687518190587
+Build-Jdk-Spec: 17
+Bundle-Description: controller OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: controller Bundle
+Bundle-SymbolicName: com.meta.controller
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: com.meta.controller;uses:="com.meta.model,javax.ws.rs,or
+ g.json.simple";version="1.0.0"
+Import-Package: com.meta.model;version="[1.0,2)",com.meta.service;versio
+ n="[1.0,2)",com.meta.validation;version="[1.0,2)",java.lang,java.lang.i
+ nvoke,java.util,javax.ws.rs;version="[2.0,3)",org.json.simple;version="
+ [1.1,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Tool: Bnd-6.3.1.202206071316
